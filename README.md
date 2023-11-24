@@ -1,2 +1,2 @@
-# learning-Js-HiteshChoudhary-chai-aur-code
+# learning-Js-chai-aur-code
 Learning JavaScript from Hitesh.
