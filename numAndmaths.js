@@ -1,4 +1,4 @@
-let score =40;
+let score =90;
 // console.log(score);
 let balance = new Number(400);
 // console.log(balance);
