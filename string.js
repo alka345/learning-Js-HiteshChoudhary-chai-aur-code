@@ -4,8 +4,8 @@ const repoCount = 90;
 
 // console.log(`hello,My repocount is${repoCount}`);//instead use this-string interpolation
 
-console.log(myName[5]);//R
- console.log(myName.__proto__);//{ }
+console.log(myName[5]);//accessing 0th key
+ console.log(myName.__proto__);//accessing prototype
  console.log(myName.length);//20
 //  console.log(myName.toUpperCase());ALKA-RAO_LEARNING_JS-ERROR
  console.log(myName.charAt(5));//R

@@ -1,17 +1,17 @@
-// let mydate = new Date();
-// console.log(mydate.toString());
-// console.log(mydate.toDateString());//Fri Nov 24 2023
-// console.log(mydate.getDate());//24:only date
-// console.log(mydate.getDay());//5:only nth days
+let mydate = new Date();
+// console.log(mydate.toString());//Mon Dec 04 2023 18:14:50 GMT+0530 (India Standard Time)
+// console.log(mydate.toDateString());//Mon Dec 04 2023
+// console.log(mydate.getDate());//4:only date
+// console.log(mydate.getDay());//1:only nth days
 // console.log(mydate.getFullYear());//2023:Full Year
-// console.log(mydate.getHours());//20: Only hours
-// console.log(mydate.getMilliseconds());//returns millisec for this date according to local time.
+// console.log(mydate.getHours());//18: Only hours
+// console.log(mydate.getMilliseconds());//returns millisec for this date according to local time.(current msec)
 // console.log(mydate.getMinutes());//returns min for this date accor to local time.
-// console.log(mydate.getMonth());//10:counts from 0th index
+// console.log(mydate.getMonth());//11:counts from 0th index
 // console.log(mydate.getSeconds());//15
-// console.log(mydate.getTime());//1700838075697//returns the numeric value of the specified date as numerber of millisec since Jan 1,1970,00:00:00 UTC(Coordinated Universal Time)
+// console.log(mydate.getTimenode());//1700838075697//returns the numeric value of the specified date as numerber of millisec since Jan 1,1970,00:00:00 UTC(Coordinated Universal Time)
 // console.log(mydate.getTimezoneOffset());//-330
-//getTimezoneOffset()-returns difference b/w UTC & local time in min.
+//getTimezoneOffset()-->returns difference b/w UTC & local time in min.
 // console.log(mydate.getUTCDate());//2clearlog(mydate.getUTCDay());//5
 // console.log(mydate.toString());//Sat Nov 25 2023 06:57:11 GMT+0530 (India Standard Time)
 // console.log(mydate.toDateString());//Sat Nov 25 2023 
@@ -41,9 +41,5 @@
 // console.log(prstDate.getDay());
 // console.log(prstDate.getFullYear());
 // console.log(prstDate);
-// console.log(prstDate);
-// console.log(prstDate);
-// console.log(prstDate);
-
 // console.log(prstDate.toLocaleString('default',{hour:"2-digit"}));
 // console.log(prstDate.toLocaleString('default',{calendar}));//error
