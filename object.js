@@ -1,20 +1,20 @@
-//declaring object as literal
+//++++++++++++++++++++++++++++declaring object as literal//++++++++++++++++++++++++++++
 // const user ={name : "Alka",
 //  age : 24,
 //  "fullName":"alkaRao",
 // lastLoginDays:["mon","tues"]}
 
-// // access values
+// //++++++++++++++++++++++++++++ access values//++++++++++++++++++++++++++++//++++++++++++++++++++++++++++
 // console.log(user.age);//24
 // console.log(user["age"]);//24
 // console.log(user["fullName"]);//alkaRao
 
-// //overwrite values
+// ////++++++++++++++++++++++++++++overwrite values//++++++++++++++++++++++++++++//+++++++++++++++++
 // // const newName =
 // user.name ="warrior";
 // console.log(user.name);//warrior
 
-//declaring Symbol
+////++++++++++++++++++++++++++++declaring Symbol//++++++++++++++++++++++++++++
 const mySym =Symbol("key1")
 const Jsuser ={name : "Alka",
  age : 24,
@@ -23,12 +23,12 @@ const Jsuser ={name : "Alka",
  "myFullName":"alkaRao",
 lastLoginDays:["mon","tues"]}
 
-// // accessing symbol
+// ////++++++++++++++++++++++++++++ accessing symbol//++++++++++++++++++++++++++++
 // console.log(Jsuser.mySym);
 // console.log(Jsuser[mySym]);
 // console.log(typeof Jsuser[mySym]);
 console.log(Jsuser);
-// ************output*************
+// ************//++++++++++++++++++++++++++++output*************//++++++++++++++++++++++++++++
 
 // {
 //     name: 'Alka',
@@ -58,7 +58,7 @@ console.log(Jsuser);
 // }}}
 // console.log(regularUser.name.age.fullName);
 
-// const obj1={1:"a",2:"b"};
+ const obj1={1:"a",2:"b"};
 // const obj2={3:"c",4:"d"};
 // const obj3={obj1,obj2}
 // const obj3 =Object.assign(obj1,obj2)
@@ -69,14 +69,25 @@ console.log(Jsuser);
 // console.log(Object.entries(obj3));//gives an array
 
 
-//  const user ={name : "Alka",
-//  age : 24,
-//   "fullName":"alkaRao",
-//  lastLoginDays:["mon","tues"]}
+ const user ={name : "Alka",
+ age : 24,
+  "fullName":"alkaRao",
+ lastLoginDays:["mon","tues"]}
 
-// console.log(user.hasOwnProperty("name"));//?
-// console.log(user.hasOwnProperty('4'));//?
-// *******************Destructing************************
+console.log(user.hasOwnProperty("name"));//true
+console.log(user.hasOwnProperty('4'));//false
+
+console.log(user.isPrototypeOf());
+// console.log();
+// console.log();
+// console.log();
+// console.log();
+// console.log();
+// console.log();
+
+
+
+// *************************************************Destructing****************************************
 
 // const user ={name : "Alka",
 //  age : 24,
@@ -89,3 +100,4 @@ console.log(Jsuser);
 
 // const { name :n}=user;
 // console.log(n);
+
