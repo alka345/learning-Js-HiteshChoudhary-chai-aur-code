@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    const div =document.createElement('div')
+    console.log(div);
+    div.className="main"
+    div.id =Math.round(Math.random()*10+1);
+    // console.log(div.id);
+   const attri= div.setAttribute('title',"generated title")
+    // console.log(attri);
+    div.style.backgroundColor="green"
+    div.style.padding="12px"
+
+    const addText =document.createTextNode("chai aur code")
+    // console.log("addText")
+    div.appendChild(addText)
+    // console.log("addText")
+// <div class="main" id="10" title="generated title" style="background-color:green;padding:12px">chai aur code</div>
+//div element get created but it is only over browser not on html page.
+document.body.appendChild(div)
+</script>
+</html>
